@@ -12,7 +12,7 @@ startup: "application"
 devices: 
   - "/dev/serial/by-id/usb-0403_6015_bc-usb-dongle-r1.0-836d1983a739-if00-port0"
 options:
-  mqtt_host: "localhost"
+  mqtt_host: "homeassistant.local"
   mqtt_host_port: 1883
   mqtt_username: "username"
   mqtt_password: "password"
